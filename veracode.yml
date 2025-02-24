@@ -1,3 +1,5 @@
 veracode_static_scan:
+  push:
+    trigger: true
   # Default policy to be used if a policy isn't already assigned to the application profile.
   policy: 'Veracode Recommended Medium'
